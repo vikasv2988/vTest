@@ -13,15 +13,17 @@ import static junit.framework.Assert.assertTrue;
 
 public class HtmlUnitDriverTest {
 
+    String url = "http://localhost:8080/vTest/";
+
     @Test
     public void driverTest() {
 
         WebDriver driver = new HtmlUnitDriver();
 
-        driver.get("https://vladimirbilenko.herokuapp.com/index.html");
-        assertTrue(driver.getTitle().startsWith("Vladimir"));
+        driver.get(url);
+        assertTrue(driver.getTitle().startsWith("vTest"));
 
-        System.out.println("Test Completed!");
+        System.out.println("HtmlUnitDriver Completed!");
     }
 
     @Test
@@ -30,10 +32,10 @@ public class HtmlUnitDriverTest {
         System.setProperty("webdriver.chrome.driver", "/Users/vbilenko/development/webdrivers/chromedriver");
         WebDriver driver = new ChromeDriver();
 
-        driver.get("https://vladimirbilenko.herokuapp.com/index.html");
-        assertTrue(driver.getTitle().startsWith("Vladimir"));
+        driver.get(url);
+        assertTrue(driver.getTitle().startsWith("vTest"));
 
-        System.out.println("Firefox Test Completed!");
+        System.out.println("vTest Test Completed!");
     }
 
 }
