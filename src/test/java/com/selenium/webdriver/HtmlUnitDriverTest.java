@@ -2,9 +2,8 @@ package com.selenium.webdriver;
 
 import org.junit.Test;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.firefox.MarionetteDriver;
-//import org.openqa.selenium.htmlunit.HtmlUnitDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.htmlunit.HtmlUnitDriver;
 import static junit.framework.Assert.assertTrue;
 
 
@@ -14,21 +13,22 @@ import static junit.framework.Assert.assertTrue;
 
 public class HtmlUnitDriverTest {
 
-//    @Test
-//    public void driverTest() {
-//
-//        WebDriver driver = new HtmlUnitDriver();
-//
-//        driver.get("https://vladimirbilenko.herokuapp.com/index.html");
-//        assertTrue(driver.getTitle().startsWith("Vladimir"));
-//
-//        System.out.println("Test Completed!");
-//    }
+    @Test
+    public void driverTest() {
+
+        WebDriver driver = new HtmlUnitDriver();
+
+        driver.get("https://vladimirbilenko.herokuapp.com/index.html");
+        assertTrue(driver.getTitle().startsWith("Vladimir"));
+
+        System.out.println("Test Completed!");
+    }
 
     @Test
     public void browserTest() {
 
-        WebDriver driver = new MarionetteDriver();
+        System.setProperty("webdriver.chrome.driver", "/Users/vbilenko/development/webdrivers/chromedriver");
+        WebDriver driver = new ChromeDriver();
 
         driver.get("https://vladimirbilenko.herokuapp.com/index.html");
         assertTrue(driver.getTitle().startsWith("Vladimir"));
