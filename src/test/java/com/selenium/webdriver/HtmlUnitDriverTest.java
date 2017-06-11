@@ -13,7 +13,7 @@ import static junit.framework.Assert.assertTrue;
 
 public class HtmlUnitDriverTest {
 
-    String url = "http://localhost:8080/vTest/";
+    String url = "http://localhost:8081/eMusicStore/";
 
     @Test
     public void driverTest() {
@@ -21,7 +21,7 @@ public class HtmlUnitDriverTest {
         WebDriver driver = new HtmlUnitDriver();
 
         driver.get(url);
-        assertTrue(driver.getTitle().startsWith("vTest"));
+        assertTrue(driver.getTitle().startsWith("My Music"));
 
         System.out.println("HtmlUnitDriver Completed!");
     }
@@ -33,7 +33,7 @@ public class HtmlUnitDriverTest {
         WebDriver driver = new ChromeDriver();
 
         driver.get(url);
-        assertTrue(driver.getTitle().startsWith("vTest"));
+        assertTrue(driver.getTitle().startsWith("My"));
 
         System.out.println("vTest Test Completed!");
     }
