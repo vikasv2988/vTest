@@ -1,0 +1,4 @@
+[ERROR] 2017-06-11 21:14:14.829 [main] HtmlUnitDriverTest - This is an error message
+[FATAL] 2017-06-11 21:14:14.830 [main] HtmlUnitDriverTest - This is a fatal message
+[ERROR] 2017-06-11 21:17:15.881 [main] HtmlUnitDriverTest - This is an error message
+[FATAL] 2017-06-11 21:17:15.881 [main] HtmlUnitDriverTest - This is a fatal message
