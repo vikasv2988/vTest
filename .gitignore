@@ -1,6 +1,4 @@
 #ignore logs
-logs/
-/Users/vbilenko/development/vTest/logs/vtest-error.log
-/Users/vbilenko/development/vTest/logs/vtest-trace.log
 *.log
-*.properties
+*.iml
+*.gitignore
