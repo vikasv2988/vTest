@@ -2,7 +2,10 @@ package com.selenium.webdriver;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.junit.Ignore;
+import org.junit.Rule;
 import org.junit.Test;
+import org.junit.rules.TestName;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.htmlunit.HtmlUnitDriver;
@@ -18,6 +21,9 @@ public class HtmlUnitDriverTest {
 
     String url = "http://localhost:8081/eMusicStore/";
     private final static Logger logger = LogManager.getLogger(HtmlUnitDriverTest.class);
+
+    @Rule
+    public TestName name = new TestName();
 
     @Test
     public void driverTest() {
@@ -37,6 +43,7 @@ public class HtmlUnitDriverTest {
     }
 
 
+    @Ignore
     @Test
     public void browserTest() {
 
