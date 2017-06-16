@@ -2,18 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="38d2c66e-97da-4cf5-a47a-6f7d3e35a0da" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_restassured_json_path_2_9_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_restassured_rest_assured_2_9_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_restassured_rest_assured_common_2_9_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_restassured_xml_path_2_9_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_groovy_groovy_2_4_4.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_groovy_groovy_json_2_4_4.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_groovy_groovy_xml_2_4_4.xml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/rest/services/ServicesSmokeTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/rest/services/ServicesSmokeTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vTest.iml" afterPath="$PROJECT_DIR$/vTest.iml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -61,8 +51,8 @@
       <file leaf-file-name="ServicesSmokeTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/rest/services/ServicesSmokeTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="20" column="37" lean-forward="false" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
+            <state relative-caret-position="202">
+              <caret line="13" column="9" lean-forward="true" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -1234,44 +1224,44 @@
       <workItem from="1497239498355" duration="2415000" />
       <workItem from="1497402310807" duration="600000" />
       <workItem from="1497403661836" duration="1152000" />
-      <workItem from="1497582023744" duration="1679000" />
+      <workItem from="1497582023744" duration="3031000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="HtmlUnitDriverTest - 2017.06.15 at 20h 00m 52s.xml">
-      <configuration name="HtmlUnitDriverTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HtmlUnitDriverTest - 2017.06.15 at 20h 01m 17s.xml">
-      <configuration name="HtmlUnitDriverTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HtmlUnitDriverTest_driverTest - 2017.06.11 at 21h 14m 15s.xml">
-      <configuration name="HtmlUnitDriverTest.driverTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HtmlUnitDriverTest_driverTest - 2017.06.11 at 21h 17m 16s.xml">
-      <configuration name="HtmlUnitDriverTest.driverTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HtmlUnitDriverTest_driverTest - 2017.06.11 at 21h 34m 17s.xml">
-      <configuration name="HtmlUnitDriverTest.driverTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HtmlUnitDriverTest_driverTest - 2017.06.13 at 18h 13m 05s.xml">
-      <configuration name="HtmlUnitDriverTest.driverTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HtmlUnitDriverTest_driverTest - 2017.06.13 at 18h 14m 01s.xml">
-      <configuration name="HtmlUnitDriverTest.driverTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HtmlUnitDriverTest_driverTest - 2017.06.13 at 18h 29m 18s.xml">
-      <configuration name="HtmlUnitDriverTest.driverTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ServicesSmokeTest_serviceServiceTest - 2017.06.15 at 20h 23m 39s.xml">
+    <history-entry file="ServicesSmokeTest_serviceServiceTest - 2017.06.15 at 20h 35m 36s.xml">
       <configuration name="ServicesSmokeTest.serviceServiceTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ServicesSmokeTest_serviceServiceTest - 2017.06.15 at 20h 26m 14s.xml">
+    <history-entry file="ServicesSmokeTest_serviceServiceTest - 2017.06.15 at 20h 41m 19s.xml">
+      <configuration name="ServicesSmokeTest.serviceServiceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ServicesSmokeTest_serviceServiceTest - 2017.06.15 at 20h 41m 54s.xml">
+      <configuration name="ServicesSmokeTest.serviceServiceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ServicesSmokeTest_serviceServiceTest - 2017.06.15 at 20h 42m 28s.xml">
+      <configuration name="ServicesSmokeTest.serviceServiceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ServicesSmokeTest_serviceServiceTest - 2017.06.15 at 20h 42m 58s.xml">
+      <configuration name="ServicesSmokeTest.serviceServiceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ServicesSmokeTest_serviceServiceTest - 2017.06.15 at 20h 43m 42s.xml">
+      <configuration name="ServicesSmokeTest.serviceServiceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ServicesSmokeTest_serviceServiceTest - 2017.06.15 at 20h 45m 01s.xml">
+      <configuration name="ServicesSmokeTest.serviceServiceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ServicesSmokeTest_serviceServiceTest - 2017.06.15 at 20h 46m 26s.xml">
+      <configuration name="ServicesSmokeTest.serviceServiceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ServicesSmokeTest_serviceServiceTest - 2017.06.15 at 20h 46m 51s.xml">
+      <configuration name="ServicesSmokeTest.serviceServiceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ServicesSmokeTest_serviceServiceTest - 2017.06.15 at 20h 48m 02s.xml">
       <configuration name="ServicesSmokeTest.serviceServiceTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47650000" />
+    <option name="totallyTimeSpent" value="49002000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="4" y="23" width="1436" height="877" extended-state="6" />
@@ -1296,10 +1286,10 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299363" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43312103" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.43312103" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.6955414" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6955414" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22812052" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -1479,8 +1469,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/rest/services/ServicesSmokeTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="20" column="37" lean-forward="false" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
+        <state relative-caret-position="202">
+          <caret line="13" column="9" lean-forward="true" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
